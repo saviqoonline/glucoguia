@@ -1,0 +1,42 @@
+<!doctype html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="theme-color" content="#4f46e5" />
+    <title>GlucoGuía MVP</title>
+    <style>
+      .startup-message {
+        box-sizing: border-box;
+        max-width: 680px;
+        margin: 12vh auto;
+        padding: 28px;
+        border: 1px solid #dbeafe;
+        border-radius: 18px;
+        background: #f8fafc;
+        color: #1e293b;
+        font: 16px/1.55 system-ui, sans-serif;
+        box-shadow: 0 16px 40px rgb(15 23 42 / 8%);
+      }
+      .startup-message h1 { margin-top: 0; color: #312e81; }
+      .startup-message code {
+        padding: 3px 7px;
+        border-radius: 6px;
+        background: #e0e7ff;
+      }
+    </style>
+  </head>
+  <body>
+    <div id="root">
+      <section class="startup-message">
+        <h1>Iniciando GlucoGuía…</h1>
+        <p>
+          Si este mensaje permanece, abre el proyecto con Vite:
+          <code>npm install</code>, <code>npm run dev</code> y visita la dirección
+          que aparece en la terminal. Live Server no puede procesar esta aplicación React.
+        </p>
+      </section>
+    </div>
+    <script type="module" src="/src/main.jsx"></script>
+  </body>
+</html>

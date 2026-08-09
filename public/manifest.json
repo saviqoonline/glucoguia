@@ -1,0 +1,9 @@
+{
+  "name": "GlucoGuía",
+  "short_name": "GlucoGuía",
+  "start_url": "/glucoguia/",
+  "display": "standalone",
+  "background_color": "#f7f7ff",
+  "theme_color": "#4f46e5",
+  "description": "Diario de seguimiento para diabetes: glucosa, insulina, medicamentos, comidas y reportes."
+}
